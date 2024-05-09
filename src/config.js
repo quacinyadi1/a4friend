@@ -4,9 +4,9 @@ const mongoose = require("mongoose");
 mongodb+srv://jamesweeba:<password>@cluster0.goftyi1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 */
 
-   const connect = mongoose.connect("mongodb://admin:7BzdvE7HeDWRZwEX@SG-spring-canopy-7377-62565.servers.mongodirector.com:27017/admin");
+    // const connect = mongoose.connect("mongodb://admin:7BzdvE7HeDWRZwEX@SG-spring-canopy-7377-62565.servers.mongodirector.com:27017/admin");
 
-  // const connect = mongoose.connect("mongodb+srv://jamesweeba:school@12@cluster0.goftyi1.mongodb.net/")
+   const connect = mongoose.connect("mongodb+srv://jamesweeba:school12@cluster0.goftyi1.mongodb.net/")
 
 connect
   .then(() => {
