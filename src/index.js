@@ -146,7 +146,6 @@ app.post("/login", async (req, res) => {
   }
 });
 
-
 app.post("/signout", (req, res) => {
     const { username } = req.body;
     // Assuming you have a variable storing the username of the currently signed-in user
